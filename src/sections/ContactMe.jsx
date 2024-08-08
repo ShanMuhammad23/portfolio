@@ -33,7 +33,7 @@ const ContactMe = () => {
   };
 
   return (
-    <form onSubmit={onSubmit} id="ContactMe" className="flex flex-col sm:mt-12 mt-10 p-6 sm:w-[70%] sm:m-auto bg-gray-400 bg-opacity-10 ">
+    <form onSubmit={onSubmit} id="ContactMe" className="flex flex-col sm:mt-12 mt-10 p-6 sm:w-[70%] sm:m-auto bg-gray-800 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
       <motion.h1
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}

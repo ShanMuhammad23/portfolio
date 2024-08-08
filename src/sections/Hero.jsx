@@ -27,8 +27,24 @@ const Hero = () => {
 
           className="mt-8 text-neutral-400">Transforming innovative designs into seamless digital experiences, I specialize in crafting responsive, interactive, and visually stunning websites. With a passion for cutting-edge technologies and user-centric design, I bring ideas to life on the web.</motion.p>
         <a href="#ContactMe"> <button
-
-          className="text-white w-max bg-transparent border-2  border-gray-500 text-xl rounded-lg py-3 px-14 mt-5  ">Hire Me</button></a>
+  class="cursor-pointer bg-gray-800 mt-5 w-max flex items-center gap-2 px-6 py-4 rounded-md text-white tracking-wider shadow-xl animate-bounce hover:animate-none"
+>
+  <svg
+    class="w-5 h-5"
+    stroke="currentColor"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+    ></path>
+  </svg>
+  Hire Me
+</button></a>
       </div>
 
       <div className="w-full  h-auto sm:w-[350px] sm:h-[350px] mb-5 p-4 lg:mr-8">

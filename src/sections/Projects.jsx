@@ -16,7 +16,7 @@ const Projects = () => {
           initial={{ opacity: 0,y:60 }}
           whileInView={{ opacity: 1 ,y:0}}
           transition={{duration:0.5,delay:0.2}}
-          className="text-white h-max p-4 flex flex-col lg:flex-row items-center rounded-xl gap-6 bg-slate-500 bg-opacity-10 border-2 border-violet-950"><img src={project.image} alt="" className="h-1/2 w-[200px]"/>
+          className="text-white h-max p-4 flex flex-col lg:flex-row items-center rounded-xl gap-6 bg-gray-800  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-violet-800"><img src={project.image} alt="" className="h-1/2 w-[200px]"/>
            <div className="flex flex-col ">
            <h1 className="gradtext text-2xl ">{project.tiltle}</h1>
             <p className="text-slate-400 leading-6">{project.description}</p>

@@ -27,3 +27,6 @@
 .label{
   @apply text-xl text-gray-300 p-2 mb-3
 }
+.skillgradborder{
+  @apply bg-gradient-to-r from-violet-600 to-fuchsia-500 border-2 border-violet-700
+}

@@ -1,4 +1,4 @@
-import { FaBars, FaCross, FaCrosshairs, FaFileLines, FaGripLines, FaLinesLeaning, FaPagelines, FaUsersBetweenLines } from "react-icons/fa6";
+import { FaBars } from "react-icons/fa6";
 import { Navlinks } from "../constants";
 import Button from "./Button";
 import { motion } from "framer-motion";
@@ -12,13 +12,14 @@ const Navbar = () => {
 
   const handleClick = () => {
     setIsOpen(!isOpen);
+
     
   };
   return (
     <>
     {isOpen && <section id="sidemenu" className=" flex  flex-col  absolute transition-opacity duration-500 z-100 bg-gray-900  h-max w-full right-0">
-      <div className="flex items-center justify-end p-4">
-        <FaWindowClose className="text-white text-3xl bg-violet-800 cursor-pointer" onClick={handleClick}/>
+      <div className="flex items-center justify-end p-4 cursor-pointer">
+        <FaWindowClose className="text-white text-3xl bg-violet-800 " onClick={handleClick} />
       </div>
       <div className="flex flex-col p-9 gap-4 items-center">{Navlinks.map((link)=>(
         <motion.a onClick={handleClick}
@@ -26,7 +27,9 @@ const Navbar = () => {
         whileInView={{ opacity: 1 ,scale:1,x:0}}
         transition={{duration:0.5,delay:0}}
         href={link.href} key={link.label} className="text-white  bg-transparent border-2 w-[200px] border-gray-500 text-xl rounded-lg py-3 flex items-center justify-center  ">{link.label}</motion.a>
-      ))}</div>
+      ))}
+      <Button/>
+      </div>
     </section>}
     <motion.nav 
     initial={{ opacity: 0,scale:0.5 }}
