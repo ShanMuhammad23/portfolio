@@ -20,7 +20,7 @@ const Footer = () => {
   className="flex flex-col  gap-4 p-6 mt-12 bg-gray-300 bg-opacity-5">
     <div className="flex justify-between gap-2   flex-col sm:flex-row ">
         <div className="flex flex-col gap-4 py-3 justify-between border-b-2 sm:border-0 sm:w-2/6"> <h1 className="text-2xl text-violet-500 text-bold">Shan Muhammad</h1>
-        <p className="text-xl text-gray-200 sm:w-2/3 leading-8">To Explore More about web developmnt! <br />Connect Me On Social World </p>
+        <p className="text-xl text-gray-200 sm:w-2/3 leading-8">To Explore More about web development! <br />Connect Me On Social World </p>
         <div className="flex gap-3 items-center text-white">
            <a href="facebook.com/Shanijoiya2374" target="_blank"> <FaFacebook  className="text-blue-700  h-[40px] w-[40px] rounded-xl cursor-pointer"/></a>
           <a href="https://www.linkedin.com/in/shan-muhammad-joiya/" target="blank"> <FaLinkedin  className="text-blue-500   h-[40px] w-[40px] rounded-xl cursor-pointer"/></a>
