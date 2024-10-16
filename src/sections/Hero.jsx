@@ -27,7 +27,7 @@ const Hero = () => {
 
           className="mt-8 text-neutral-400">Transforming innovative designs into seamless digital experiences, I specialize in crafting responsive, interactive, and visually stunning websites. With a passion for cutting-edge technologies and user-centric design, I bring ideas to life on the web.</motion.p>
         <a href="#ContactMe"> <button
-  class="cursor-pointer bg-gray-800 mt-5 w-max flex items-center gap-2 px-6 py-4 rounded-md text-white tracking-wider shadow-xl animate-bounce hover:animate-none"
+  class="cursor-pointer bg-gray-800 z-[-1] mt-5 w-max flex items-center gap-2 px-6 py-4 rounded-md text-white tracking-wider shadow-xl animate-bounce hover:animate-none"
 >
   <svg
     class="w-5 h-5"
